@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinteChai.com</title>
+
+    <!--Browser logo-->
+    <!-- https://remixicon.com -->
+    <link rel="icon" type="image/icon" href="image/icon.png">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- video-18 -->
+    <!--(06:35) https://youtu.be/_3zc79s5WcE?si=N6IrMdvHm-kUo6qA&t=395-->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> KinteChai </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-1.png">
+                <div class="content">
+                    <h3>orange</h3>
+                    <span class="price">220 ৳/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-2.png">
+                <div class="content">
+                    <h3>Bread</h3>
+                    <span class="price">40 ৳/-</span>
+                    <span class="quantity">Qty : 3</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-3.png">
+                <div class="content">
+                    <h3>Potato</h3>
+                    <span class="price">60 ৳/-</span>
+                    <span class="quantity">Qty : 2</span>
+                </div>
+            </div>
+
+            <div class="total"> total : 460 ৳/-</div>
+            <a href="invoice.html" class="btn">Checkout</a>
+
+        </div>
+
+
+        <form action="login.html" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+
+            <p>Forgot Your Password? <a href="#"> Click Here</a></p>
+            <p>Don't Have An Account! <a href="registration.html"> Create Now</a></p>
+
+            <input type="submit" value="Login Now" class="btn">
+
+
+        </form>
+
+
+    </header>
+    <!-- header section ends -->
+
+
+    <!-- BANNER SECTION -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh And <span>Organic</span> Products For You</h3>
+            <p>Convinience at Your Finger Tips</p>
+
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <!-- BANNER SECTION -->
+
+    <!-- FEATURES SECTIONS -->
+
+    <section class="features" id="features">
+        <h1 class="heading"> Our <span>features</span> </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/feature-1.png">
+                <h3>fresh and organic</h3>
+
+                <p>We ensure our every products which are<br>fully fresh and authentic</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/feature-2.png">
+                <h3>Fastest Delivery</h3>
+
+                <p>We are providing fastest delivary<br>within 45 minutes</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/feature-3.png">
+                <h3>Easy Payments</h3>
+
+                <p>Easy payment methods through visa/master card,<br>mobile banking or cash on delivary</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- FEATURES SECTIONS -->
+
+
+
+    <!-- PRODUCT SECTIONS -->
+
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/product-1.png">
+                    <h1>Najir Shail Rice</h1>
+                    <div class="price">440 ৳</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="image/product-2.png">
+                    <h1>orange</h1>
+                    <div class="price">220 ৳</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/product-3.png">
+                    <h1>meat</h1>
+                    <div class="price">800 ৳</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="image/product-4.png">
+                    <h1>Onion</h1>
+                    <div class="price">100 ৳</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide box">
+                    <img src="image/product-5.png">
+                    <h1>Bread</h1>
+                    <div class="price">40 ৳</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="image/product-6.png">
+                    <h1>Fresh Flower</h1>
+                    <div class="price">300 ৳</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-stroke"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/product-7.png">
+                    <h1>Potato</h1>
+                    <div class="price">60 ৳</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="image/product-8.png">
+                    <h1>Cabbage</h1>
+                    <div class="price">50 ৳</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCT SECTIONS -->
+
+
+
+
+
+    <!-- PRODUCT CATAGORIES -->
+
+    <section class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/cat-1.png">
+                <h3>Fresh Vegetables</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-2.png">
+                <h3>Dairy Products</h3>
+                <p>Upto 25% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-3.png">
+                <h3>Fresh Fruits</h3>
+                <p>Upto 20% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-4.png">
+                <h3>Fresh Meat</h3>
+                <p>Upto 15% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PRODUCT CATAGORIES -->
+
+
+    <!-- Review Section -->
+
+    <section class="review" id="review">
+        <h1 class="heading"> Customer's <span>Review</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/rev-1.png">
+                    <p>I have noticed for a while how helpful and pleasant the staff at Farm foods Wakefield are. Well
+                        done, never takes long to be served, prices are great and so are the staff.</p>
+                    <h3>Sam Sifton</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/rev-2.png">
+                    <p>Everything beautifully packed and wrapped individually. Delivered to the door of my flat which is
+                        important to an elderly lady.
+                        I am satisfied.</p>
+                    <h3>Katherine Lee</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/rev-3.png">
+                    <p>Always offers great, quality, fresh variety choice of food are reasonably priced. careful
+                        packaging and quick delivery always maintained.</p>
+                    <h3>Jason Matthew Rayner</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/rev-4.png">
+                    <p>KinteChai delivery in good secure packaging. Products were all fresh with long dates. Very
+                        pleased with my purchase. Will definitely use them again.</p>
+                    <h3>Adnan Rahman</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/rev-5.png">
+                    <p>Great customer experience. Fast response to queries and our order arrived fast, each item
+                        securely packed and cooling bags for fridge items.</p>
+                    <h3>Himadro Showrav</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/rev-6.png">
+                    <p>Everything was great, super quick delivery, great packaging, attention to detail and very helpful
+                        staff. Thank you very much.</p>
+                    <h3>Maruf Hasan</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Review Section -->
+
+    <!--Blog Section-->
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> Our <span>Blogs</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/blog-1.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"> Rownak's Kitchen </i></a>
+                        <a href="#"><i class="fa fa-calendar"> May 10, 2022 </i></a>
+                    </div>
+                    <h3>Fresh and Organic Vegetables and Fruits | KinteChai</h3>
+                    <p>Effortless Shopping at Your Fingertips: Seamless Online Grocery Delivery with KinteChai!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/blog-2.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"> BD Food Blog | KinteChai </i></a>
+                        <a href="#"><i class="fa fa-calendar"> July 18, 2022 </i></a>
+                    </div>
+                    <h3>Shop Smart: Online Grocery Essentials | KinteChai</h3>
+                    <p>Shop Smarter, Not Harder: Quick & Easy Online Grocery Delivery!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/blog-3.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"> Rafsan the Chotobhai </i></a>
+                        <a href="#"><i class="fa fa-calendar"> October 03, 2022 </i></a>
+                    </div>
+                    <h3>Effortless Shopping | KinteChai</h3>
+                    <p>From Screen to Table: Simple Online Grocery Shopping, Fast Delivery!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Blog Section-->
+
+
+
+    <!--Footer Section-->
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3> KinteChai <i class="fa fa-shopping-basket"></i></h3>
+                <p>Feel Free to follow us on our social media handlers all the links are given below.</p>
+
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3> Contact Info <!--<i class="fa fa-contact-book"></i>--></h3>
+                <a href="#" class="links"> <i class="fa fa-phone"></i> +880 1918-559372 </a>
+                <a href="#" class="links"> <i class="fa fa-phone"></i> +880 1918-559372 </a>
+                <a href="#" class="links"> <i class="fa fa-envelope"></i> kintechai@gmail.com </a>
+                <a href="#" class="links"> <i class="fa fa-map-marker-alt"></i> Khagan, Ashulia </a>
+            </div>
+
+            <div class="box">
+                <h3> Quick Links <!--<i class="fa fa-link"></i> --></h3>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Home </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Features </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Products </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Categories </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Review </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Blogs </a>
+            </div>
+
+            <div class="box">
+                <h3> Newsletter </h3>
+                <p>Subscribe For Latest Updates</p>
+                <input type="email" placeholder="your email..." class="email">
+                <input type="submit" value="Subscribe" class="btn"><br>
+                <img src="image/payment.png" class="payment-img">
+            </div>
+
+        </div>
+
+        <div class="credit"> Created by <span>ARS & Team</span> | All Rights Reserved </div>
+
+
+
+
+    </section>
+
+    <!--Footer Section-->
+
+
+    <!--(08:32) https://youtu.be/_3zc79s5WcE?si=u4wX1DtSmEXQwGl4&t=512-->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
